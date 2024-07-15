@@ -75,7 +75,6 @@ class Home extends Component {
   restartGame = () => this.setState({isShow: true})
 
   checkResult = id => {
-    //check
     const {score} = this.state
     const choice2 = choicesList[Math.floor(Math.random() * choicesList.length)]
     const choice1 = choicesList.filter(eachValue => eachValue.id === id)

@@ -5,7 +5,7 @@ import {
   ScoreBoard,
   ScoreHeading,
   ScoreResult,
-} from './styledComponents'//check
+} from './styledComponents'
 
 const ScoreView = props => {
   const {score} = props

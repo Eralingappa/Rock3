@@ -1,4 +1,3 @@
-
 import {
   GameViewContainer,
   GameButton,
@@ -59,6 +58,7 @@ const GameResultsView = props => {
           </ResultImagContainer>
           <ResultImagContainer>
             <ResultName>OPPONENT</ResultName>
+            //
             <GameImage src={newArray[1].imageUrl} alt="opponent choice" />
           </ResultImagContainer>
           <ResultImagContainer>
@@ -68,7 +68,7 @@ const GameResultsView = props => {
               type="button"
               onClick={restartGame}
             >
-              PLAY AGIN
+              PLAY AGAIN
             </button>
           </ResultImagContainer>
         </>

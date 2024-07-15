@@ -1,0 +1,15 @@
+.trigger-button {
+  width: 50px;
+  height: 60px;
+  padding: 10px;
+  color: #223a5f;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+}
+.trigger-button-close {
+  background-color: transparent;
+  width: 20px;
+  font-size: 10px;
+  align-items: flex-end;
+}
