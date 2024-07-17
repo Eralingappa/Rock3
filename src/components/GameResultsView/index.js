@@ -58,7 +58,6 @@ const GameResultsView = props => {
           </ResultImagContainer>
           <ResultImagContainer>
             <ResultName>OPPONENT</ResultName>
-            //
             <GameImage src={newArray[1].imageUrl} alt="opponent choice" />
           </ResultImagContainer>
           <ResultImagContainer>

@@ -71,7 +71,6 @@ class Home extends Component {
       }
     }
   }
-
   restartGame = () => this.setState({isShow: true})
 
   checkResult = id => {
@@ -106,7 +105,7 @@ class Home extends Component {
           text={text}
           isShow={isShow}
           newArray={newArray}
-          checkResult={checkResult}
+          checkResult={this.checkResult}
           restartGame={this.restartGame}
         />
         <RulesView>
