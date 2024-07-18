@@ -28,7 +28,7 @@ const GameResultsView = props => {
           </GameButton>
           <GameButton
             type="button"
-            data-testid="scissorsButtom"
+            data-testid="scissorsButton"
             onClick={() => checkResult(choicesList[1].id)}
           >
             <GameImage
@@ -50,15 +50,16 @@ const GameResultsView = props => {
           </GameButton>
         </>
       )}
+
       {isShow && (
         <>
           <ResultImagContainer>
             <ResultName>YOU</ResultName>
-            <GameImage src={newArray[0].imageUrl} alt="your choice" />
+            <GameImage src={newArray.imageUrl} alt="your choice" />
           </ResultImagContainer>
           <ResultImagContainer>
             <ResultName>OPPONENT</ResultName>
-            <GameImage src={newArray[1].imageUrl} alt="opponent choice" />
+            <GameImage src={newArray.imageUrl} alt="opponent choice" />
           </ResultImagContainer>
           <ResultImagContainer>
             <ResultText>{text}</ResultText>

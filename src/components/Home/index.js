@@ -34,7 +34,7 @@ const choicesList = [
 class Home extends Component {
   state = {
     isShow: true,
-    newArray: choicesList[0].choicesList[[1]],
+    newArray: choicesList[0],
     text: 'YOU WON',
     score: 0,
   }
