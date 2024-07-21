@@ -71,6 +71,7 @@ class Home extends Component {
       }
     }
   }
+
   restartGame = () => this.setState({isShow: true})
 
   checkResult = id => {
@@ -124,7 +125,7 @@ class Home extends Component {
                   className="trigger-button-close"
                   onClick={() => close()}
                 >
-                  <RiCloseLine />
+                  <RiCloseLine aria-label="close" />
                 </button>
 
                 <PopupImage
