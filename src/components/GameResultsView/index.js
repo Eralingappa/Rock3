@@ -51,7 +51,7 @@ const GameResultsView = props => {
         </>
       )}
 
-      {isShow && (
+      {!isShow && (
         <>
           <ResultImagContainer>
             <ResultName>YOU</ResultName>
